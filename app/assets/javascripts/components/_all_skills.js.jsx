@@ -1,8 +1,10 @@
-var allSkills = React.createClass({
-  render() {
-    return (
+var AllSkills = React.createClass({
+  getInitialState() {
+    return { skills: [] }
+  },
+
       <div>
-        <h1>DONOHUE</h1>
+        <h1>Hello from All Skills!</h1>
       </div>
     )
   }

@@ -1,8 +1,8 @@
 var Body = React.createClass({
-  render() {
+  render(AllSkills) {
     return (
       <div>
-        <h1>JILLLL</h1>
+        <h1>HEROO</h1>
       </div>
     )
   }

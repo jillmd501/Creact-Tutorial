@@ -1,8 +1,12 @@
+
 var Main = React.createClass({
   render() {
     return (
       <div>
-        <Header />
+        <div className='container'>
+          <Header />
+          <Body />
+        </div>
       </div>
     )
   }
